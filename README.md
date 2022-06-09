@@ -8,7 +8,7 @@ make
 
 ## Run
 ```
-cd ..
+cd project
 ./StringFilter  --filepath "file path of the word list" --pattern "the word that is being searched"
 ```
 
@@ -20,6 +20,6 @@ First, you may generate the word list for test running this script
 ```
 And therefore, you can use the file words.txt generate in the resources folder, and running the following command to search "Aa" for example
 ```
-cd ..
+cd project
 ./StringFilter  --filepath resources/words.txt --pattern "Aa"
 ```
